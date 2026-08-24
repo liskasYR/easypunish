@@ -1,0 +1,49 @@
+# EasyPunish Global Configuration
+# Developed by liskasYR (liskCell)
+
+prefix: "&#9EB99E[&#1B83E5EasyPunish&#9EB99E] "
+
+messages:
+  no-permission: "&#F53F3FYou do not have permission to execute this command."
+  player-not-found: "&#F53F3FPlayer &#1B83E5%player%&#F53F3F was not found."
+  invalid-usage: "&#F53F3FInvalid command usage. Correct usage: &#B9B8B3%usage%"
+  invalid-type: "&#F53F3FInvalid punishment type. Available types: &#1B83E5Ban&#F53F3F, &#1B83E5Chat&#F53F3F, &#1B83E5VoiceChat"
+  invalid-punishment: "&#F53F3FPunishment reason &#1B83E5%punishment%&#F53F3F does not exist for this category in config."
+  invalid-id: "&#F53F3FPunishment ID &#1B83E5%id%&#F53F3F was not found in database."
+  not-your-punishment: "&#F53F3FThis punishment does not belong to you. You cannot submit an appeal for it."
+  already-appealed: "&#F53F3FAn appeal has already been submitted for punishment ID &#1B83E5%id%&#F53F3F."
+
+  # Punishment Messages
+  punished-broadcast: "&#F53F3FPlayer &#1B83E5%player%&#F53F3F was punished (Type: &#1B83E5%type%&#F53F3F) for &#FF867A%reason%&#F53F3F duration: &#E0DB52%time%&#F53F3F. &#B9B8B3(ID: %id%)"
+  punished-target-mute: "&#F53F3FYou have been muted (Type: &#1B83E5%type%&#F53F3F) for &#FF867A%reason%&#F53F3F duration: &#E0DB52%time%&#F53F3F. &#B9B8B3(ID: %id%)"
+  unpunished-broadcast: "&#45E539Punishment (Type: &#1B83E5%type%&#45E539) for player &#1B83E5%player%&#45E539 was removed. &#B9B8B3(ID: %id%)"
+  unpunished-target: "&#45E539Your punishment (ID: &#1B83E5%id%&#45E539) has been removed."
+
+  # Ban Kick Screen
+  ban-screen: "&#F53F3F&lYOU ARE BANNED FROM THIS SERVER!\n\n&#B9B8B3Reason: &#FF867A%reason%\n&#B9B8B3Time Remaining: &#E0DB52%time%\n&#B9B8B3Punishment ID: &#1B83E5%id%\n\n&#9EB99EYou can appeal your punishment using /appeal %id% <reason>"
+
+  # Chat Mute Block Message
+  chat-muted: "&#F53F3FYou are currently muted in chat! &#B9B8B3Reason: &#FF867A%reason%&#B9B8B3 | Time Remaining: &#E0DB52%time%&#B9B8B3 | ID: &#1B83E5%id%"
+
+  # Kick Message
+  kick-broadcast: "&#F53F3FPlayer &#1B83E5%player%&#F53F3F was kicked by &#1B83E5%staff%&#F53F3F for: &#FF867A%reason%"
+  kick-screen: "&#F53F3F&lYOU HAVE BEEN KICKED FROM THE SERVER!\n\n&#B9B8B3Reason: &#FF867A%reason%\n&#B9B8B3Kicked by: &#1B83E5%staff%"
+
+  # Warn Messages
+  warned-broadcast: "&#FF867APlayer &#1B83E5%player%&#FF867A received a warning for: &#FF867A%reason% &#B9B8B3(%warns%/%max_warns%)"
+  warned-target: "&#FF867AYou received a warning for: &#FF867A%reason% &#B9B8B3(%warns%/%max_warns%)"
+  warned-autoban: "&#F53F3FPlayer &#1B83E5%player%&#F53F3F reached 3 warnings (%warns%/%max_warns%) and was automatically BANNED from the server!"
+  unwarned-staff: "&#45E539Removed 1 warning from player &#1B83E5%player%&#45E539 for &#FF867A%reason%&#45E539."
+
+  # Check & Alts
+  check-header: "&#9EB99E=== &#1B83E5Active Punishments for %player% &#9EB99E==="
+  check-none: "&#45E539Player &#1B83E5%player%&#45E539 currently has no active punishments."
+  check-item: "&#B9B8B3ID: &#1B83E5%id%&#B9B8B3 | Type: &#1B83E5%type%&#B9B8B3 | Reason: &#FF867A%reason%&#B9B8B3 | Time Left: &#E0DB52%time%"
+  alts-header: "&#9EB99E=== &#1B83E5Linked Accounts (Alts) for %player% (%ip%) &#9EB99E==="
+  alts-item: "&#B9B8B3- &#1B83E5%player% &#B9B8B3(Status: %status%&#B9B8B3)"
+
+  # Appeals Messages
+  appeal-submitted: "&#45E539Appeal for punishment ID &#1B83E5%id%&#45E539 submitted successfully!"
+  appeal-notify-staff: "&#9EB99E[Appeals] &#1B83E5%player%&#9EB99E submitted an appeal for ID &#1B83E5%id%&#9EB99E! Type &#1B83E5/appeals&#9EB99E to review."
+  appeal-approved: "&#45E539Your appeal for punishment ID &#1B83E5%id%&#45E539 was APPROVED and your punishment was removed!"
+  appeal-denied: "&#F53F3FYour appeal for punishment ID &#1B83E5%id%&#F53F3F was DENIED."

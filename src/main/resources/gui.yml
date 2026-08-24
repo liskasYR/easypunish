@@ -1,0 +1,50 @@
+# EasyPunish GUI Configuration
+
+titles:
+  banlist: "&#9EB99EBanned Players List &#B9B8B3(Page %page%)"
+  mutelist: "&#9EB99EChat Muted Players List &#B9B8B3(Page %page%)"
+  warnlist: "&#9EB99EWarned Players List &#B9B8B3(Page %page%)"
+  voicelist: "&#9EB99EVoice Muted Players List &#B9B8B3(Page %page%)"
+  history: "&#9EB99EPunishment History for %player% &#B9B8B3(Page %page%)"
+  detail: "&#9EB99EPunishment ID %id% - %player%"
+  appeals: "&#9EB99EAppeals Management &#B9B8B3(Page %page%)"
+  appeal-detail: "&#9EB99EAppeal for ID %id% - %player%"
+
+items:
+  border:
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: " "
+  previous-page:
+    material: "ARROW"
+    name: "&#45E539Previous Page"
+    slot: 18
+  next-page:
+    material: "ARROW"
+    name: "&#45E539Next Page"
+    slot: 26
+  close:
+    material: "BARRIER"
+    name: "&#F53F3FClose Menu"
+    slot: 22
+
+  approve-appeal:
+    material: "LIME_WOOL"
+    name: "&#45E539Approve Appeal (Unpunish)"
+    lore:
+      - "&#B9B8B3Left-click to approve appeal"
+      - "&#B9B8B3and remove punishment immediately."
+    slot: 11
+
+  deny-appeal:
+    material: "RED_WOOL"
+    name: "&#F53F3FDeny Appeal"
+    lore:
+      - "&#B9B8B3Right-click to deny appeal"
+      - "&#B9B8B3and remove from list."
+    slot: 15
+
+sounds:
+  click: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  page-change: "ITEM_BOOK_PAGE_TURN"
+  approve: "ENTITY_PLAYER_LEVELUP"
+  deny: "ENTITY_VILLAGER_NO"

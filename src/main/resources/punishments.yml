@@ -1,0 +1,48 @@
+# EasyPunish Global Punishments Configuration
+# Default warning limit across reasons is 3. Reaching 3 warnings triggers an automatic server ban!
+
+Chat:
+  Swears:
+    time: 1h
+    punishment-translate: "Inappropriate language in chat"
+    warns: 3
+  Spam:
+    time: 30m
+    punishment-translate: "Chat spamming and flooding"
+    warns: 3
+  Toxic:
+    time: 1d
+    punishment-translate: "Toxic behavior and harassment"
+    warns: 3
+  Advertising:
+    time: 7d
+    punishment-translate: "Server advertising in chat"
+    warns: 3
+
+Ban:
+  Cheating:
+    time: 30d
+    punishment-translate: "Unfair advantage / Cheating / Hacking"
+    warns: 3
+  SevereToxic:
+    time: 7d
+    punishment-translate: "Severe harassment or toxicity"
+    warns: 3
+  BanEvading:
+    time: 14d
+    punishment-translate: "Evading active punishment using alt account"
+    warns: 3
+  BugExploit:
+    time: 3d
+    punishment-translate: "Exploiting game bugs or glitches"
+    warns: 3
+
+VoiceChat:
+  VoiceSpam:
+    time: 2h
+    punishment-translate: "Voice chat noise or spam"
+    warns: 3
+  VoiceSwears:
+    time: 1d
+    punishment-translate: "Inappropriate language in voice chat"
+    warns: 3

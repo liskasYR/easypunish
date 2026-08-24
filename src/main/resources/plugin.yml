@@ -1,0 +1,51 @@
+name: EasyPunish
+version: 1.0.0
+main: com.liskcell.easypunish.EasyPunish
+api-version: '1.21'
+author: liskasYR (liskCell)
+description: Premium custom punishment system for Minecraft (Bans, Mutes, Warns, VoiceChat Mutes, Appeals, Alts, GUIs).
+softdepend: [LuckPerms]
+
+commands:
+  punish:
+    description: Issue a punishment to a player (Ban, Chat, VoiceChat)
+    usage: /punish <player|id> [type] [punishment]
+  unpunish:
+    description: Remove a punishment from a player or ID
+    usage: /unpunish <player|id> [type]
+  warn:
+    description: Issue a warning to a player
+    usage: /warn <player> <type> <punishment>
+  unwarn:
+    description: Remove a warning from a player
+    usage: /unwarn <player> <type> <punishment>
+  kick:
+    description: Kick a player from the server
+    usage: /kick <player> [reason]
+  banlist:
+    description: View banned players list GUI
+    usage: /banlist [player]
+  mutelist:
+    description: View muted players list GUI
+    usage: /mutelist [player]
+  warnlist:
+    description: View warned players list GUI
+    usage: /warnlist [player]
+  voicelist:
+    description: View voicechat muted players list GUI
+    usage: /voicelist [player]
+  history:
+    description: View player punishment history
+    usage: /history <player>
+  check:
+    description: Check current active punishment of a player
+    usage: /check <player>
+  alts:
+    description: Check alt accounts connected from same IP
+    usage: /alts <player>
+  appeal:
+    description: Submit an appeal for a punishment ID
+    usage: /appeal <id> <reason>
+  appeals:
+    description: Manage player appeals GUI
+    usage: /appeals [id] [type]

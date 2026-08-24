@@ -1,0 +1,25 @@
+# EasyPunish Custom Permissions Registry
+# You can modify any permission node name here.
+
+permissions:
+  punish-chat: "easypunish.punish.chat"
+  punish-ban: "easypunish.punish.ban"
+  kick: "easypunish.kick"
+  punish-voicechat: "easypunish.punish.voicechat"
+  unpunish-chat: "easypunish.unpunish.chat"
+  unpunish-ban: "easypunish.unpunish.ban"
+  warn-chat: "easypunish.warn.chat"
+  warn-ban: "easypunish.warn.ban"
+  warn-voicechat: "easypunish.warn.voicechat"
+  mutelist: "easypunish.mutelist"
+  banlist: "easypunish.banlist"
+  warnlist: "easypunish.warnlist"
+  history: "easypunish.history"
+  alts: "easypunish.alts"
+  admin: "easypunish.admin"
+  appeal: "easypunish.appeal"
+  appeallist: "easypunish.appeallist"
+  appeals-chat: "easypunish.appeals.chat"
+  appeals-voicechat: "easypunish.appeals.voicechat"
+
+voicechat-permission-node: "voicechat.muted"

@@ -1,0 +1,23 @@
+{
+  "mod_id": "easypunish",
+  "name": "EasyPunish",
+  "summary": "A clean punishment management plugin for Paper 1.21+ with 6-digit ID tracking, staff GUIs, voice mute support, and in-game appeals.",
+  "description_file": "README.md",
+  "categories": [
+    "admin",
+    "utility",
+    "management"
+  ],
+  "versions": [
+    "1.21.11",
+    "1.21.x"
+  ],
+  "loaders": [
+    "paper",
+    "purpur",
+    "folia"
+  ],
+  "license": "MIT",
+  "author": "liskasYR (liskCell)",
+  "project_type": "plugin"
+}
