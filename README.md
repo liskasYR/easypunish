@@ -2,8 +2,6 @@
 
 A punishment management plugin built for Paper, Purpur, and Folia 1.21+ servers.
 
-Created by **liskasYR (Yonatan Yusupov)** at **liskCell**.
-
 ---
 
 ## About EasyPunish
@@ -55,11 +53,3 @@ EasyPunish is a moderation plugin built to make server moderation fast and organ
 - `history.yml` - Punishment history logs.
 - `appeals.yml` - Appeals database.
 - `alts.yml` - Linked player IPs.
-
----
-
-## Credits
-
-- **Developer:** **liskasYR (Yonatan Yusupov)**
-- **Company:** **liskCell**
-- **License:** MIT
