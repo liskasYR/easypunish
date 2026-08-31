@@ -1,12 +1,10 @@
 <div align="center">
-  <img src="icon.png" alt="EasyPunish" width="128">
+  <img src="https://cdn.modrinth.com/data/EUGCsoH9/d0c1136605390251ab883bb26536d3f77c982c9d_96.webp" alt="EasyPunish Logo" width="128">
   <h1>EasyPunish</h1>
   <p>A punishment management plugin built for Paper, Purpur, and Folia 1.21+ servers.</p>
 </div>
 
----
-
-## About EasyPunish
+## About the plugin
 
 EasyPunish is a moderation plugin built to make server moderation fast and organized. Instead of dealing with messy commands and lost punishment times, EasyPunish gives every punishment a unique 6-digit ID, includes full GUI menus for staff, integrates directly with LuckPerms for voice-chat mutes, and lets players appeal their punishments directly in-game.
 
