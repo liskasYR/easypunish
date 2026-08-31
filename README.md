@@ -2,6 +2,14 @@
 
 A punishment management plugin built for Paper, Purpur, and Folia 1.21+ servers.
 
+
+<div align="center">
+  <img src="icon.png" alt="Essential Patcher" width="128">
+  <h1>EasyPunish</h1>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/essential-patcher">Download on CurseForge</a>
+</div>
+
+
 ---
 
 ## About EasyPunish
